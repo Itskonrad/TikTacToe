@@ -1,0 +1,19 @@
+#header{
+    height: 20vh;
+    text-align: center;
+}
+#gameGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 70vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+}
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
