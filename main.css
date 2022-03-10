@@ -1,14 +1,22 @@
+:root{
+    font-family: 'Hubballi', cursive;
+}
+body{
+    background-color: #bfa4d1;
+}
+
 #header{
-    height: 20vh;
+    height: 15vh;
     text-align: center;
+    font-size: 80px;
 }
 #gameGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     height: 70vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
 
 }
 .grid {
@@ -16,4 +24,57 @@
     align-items: center;
     justify-content: center;
     border: 1px solid black;
+    font-size: 60px;
+    background-color: #e6c3cf;
+}
+
+#turn{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.btn{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+#restart{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(84, 105, 212);
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(84 105 212) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 4px 8px;
+    display: inline-block;
+    min-height: 35px;
+    transition: background-color .24s,box-shadow .24s;
+
+
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fa-github {
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+    color: black;
+}
+
+.fa-linkedin {
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+    color: #2867B2;
 }

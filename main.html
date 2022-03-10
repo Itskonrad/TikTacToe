@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cbb1d434cb.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div>
         <div id="header"> Tic-Tac-Toe</div>
+        <div id="turn">Player X's Turn</div>
         <div id="gameGrid">
             <div class="grid" id="0"></div>
             <div class="grid" id="1"></div>
@@ -21,7 +26,17 @@
             <div class="grid" id="7"></div>
             <div class="grid" id="8"></div>
         </div>
+        <div class="btn"><input type="button" value="Restart" id="restart"></div>
     </div>
+    <footer class="footer">
+        <p>
+            Konrad Lach
+        </p>
+        <a href="https://github.com/KonradLach" target="_blank">
+            <i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/konrad-lach-338571169/" target="_blank">
+            <i class="fab fa-linkedin"></i></a>
+    </footer>
     <script src="main.js"></script>
 </body>
 </html>
